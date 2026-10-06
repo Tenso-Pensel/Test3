@@ -9,6 +9,8 @@ public class test {
     void newTest() {
         SystemColor.getColor("blue");
         Assertions.assertTrue(3>2);
+        int i = 3;
+        Assertions.assertTrue(1>2);
 
 }
 }
