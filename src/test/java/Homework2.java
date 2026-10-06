@@ -26,6 +26,7 @@ public class Homework2 {
            // actions().moveToElement($("#column-a")).clickAndHold().moveByOffset(250,0).release().perform();
             //Проверьте, что прямоугольники действительно поменялись
           // $("#column-a").shouldHave(text("B"));
+            //Второй вариант переноса прямоугольник А на место В
             $("#column-a").dragAndDrop(DragAndDropOptions.to("#column-b"));
             $("#column-a").shouldHave(text("B"));
 
